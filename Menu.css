@@ -1,0 +1,111 @@
+@font-face {
+    font-family: jay;
+    src: url(./Extras/Fonts/NICOTINE.ttf);
+}
+@font-face {
+  font-family: jay1;
+  src: url('./Extras/Fonts/Nunito-VariableFont_wght.ttf')
+}
+#chatbot img{
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+} 
+#chatbot img:hover{
+    transform: scale(1.1);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+#divj{
+    width: 100%;
+    height: 120px;
+    background-color: rgba(0, 0, 0, 0.139);
+    position: fixed;
+    display: inline;
+    margin-left: -10px;
+    margin-top: -10px;
+}
+#logo{
+    padding-top: 45px;
+    padding-left: 90px;
+}
+#title{
+    padding-left: 130px;
+    margin-top: -34px;
+    font-size: 20px;
+    color: white;
+    font-family: 'jay1';
+}
+#nav-list{
+    padding-left: 800px;
+    margin-top: -35px;
+    font-size: 17px;
+    font-weight: 700;
+    color: white;
+}
+.menu{
+    color: white;
+}
+.pages{
+    color: white;
+}
+.pages:hover{
+    color: purple;
+}
+#nav-list a{
+    display: inline;
+    text-decoration: none;
+    padding-left: 40px;
+    font-family: jay1;
+}
+#home{
+    background-image: url("./Extras/menubanner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 625px;
+    display: flex;
+    align-items: center;
+}
+.grid-container{
+    display: grid;
+    padding: 0 200px;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 220px 220px;
+    row-gap: 60px;
+    column-gap: 50px;
+    margin-top: -510px;
+    justify-content: space-around;
+    color: white;
+}
+.grid-item:hover{
+    color: rgb(207, 198, 198);
+}
+.grid-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: jay;
+    font-size: 20px;
+    cursor: pointer;
+}
+#footer{
+    background-image: linear-gradient(90deg,#C77BF4 0%, #FF5672 100%);
+    display: flex;
+    color: white;
+    margin-top: 5%;
+    width: 100%;
+    padding: 1% 0;
+    position: static;
+    justify-content: center;
+    font-size: 15px;
+    padding: 2% auto;
+    box-shadow: 1px 1px 10px #424242;
+    margin-bottom: -90px;
+    margin-top: 8px;
+}

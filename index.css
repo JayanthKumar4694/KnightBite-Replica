@@ -1,0 +1,334 @@
+@font-face {
+    font-family: jay;
+    src: url(./Extras/Fonts/NICOTINE.ttf);
+}
+@font-face {
+    font-family: jay1;
+    src: url('./Extras/Fonts/Nunito-VariableFont_wght.ttf')
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+#home{
+    background-image: url("./Extras/banner-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -250px;
+    margin-top: -250px;
+}
+#divj{
+    width: 100%;
+    height: 120px;
+    background-color: rgba(0, 0, 0, 0.211);
+    position: fixed;
+    display: inline;
+    margin-left: -10px;
+}
+#logo{
+    padding-top: 45px;
+    padding-left: 90px;
+}
+#title{
+    padding-left: 130px;
+    margin-top: -34px;
+    font-size: 20px;
+    color: white;
+    font-family: 'jay1';
+}
+#nav-list{
+    padding-left: 800px;
+    color: white;
+    margin-top: -30px;
+    font-size: 17px;
+    font-weight: 700;
+}
+.home{
+    color: white;
+}
+.pages{
+    color: white;
+}
+.pages:hover{
+    color: purple;
+}
+#nav-list a{
+    display: inline;
+    text-decoration: none;
+    padding-left: 40px;
+    font-family: jay1;
+}
+#one{
+    padding-top: 250px;
+} 
+#heading{
+    color: white;
+    text-align: center;
+    margin-top: 18%;   
+    font-family: 'jay';
+    font-size: 55px;
+    margin-bottom: 20px;
+} 
+#ordButton button{
+    background-color: #FF5672;
+    margin-left:43%;
+    margin-top: 4%;
+    width: 200px;
+    height: 40px;
+    border-radius: 20%;
+    border: none;
+    font-size: 20px; 
+} 
+#ordButton a{
+    text-decoration: none;
+    color: white;
+} 
+#or{
+    color: white;
+    text-align: center;
+    margin-top: 0.5%;
+    margin-left: 2%;
+    font-family: 'jay1';
+    font-size: 20px;
+    font-weight: 300;
+} 
+#storeImg{
+    margin-left: -100px;
+}
+.store{
+    height: 70px;
+    width: 220px;
+    margin-top: 0.7%;
+    margin-bottom:5%;
+    border-radius: 10px;
+} 
+.store:hover{
+    transform: scale(0.95);
+} 
+#play{
+    margin-left: 38%;
+    margin-right: 2%;
+}
+#side-heading{
+    color: rgba(0, 0, 0, 0.542);
+    margin: 4% 45%;
+    font-family: 'jay1';
+    font-weight: 550;
+    font-size: 55px;
+}
+#features{
+    position: static;
+} 
+#feature-list{
+    margin: 3% auto;
+} 
+#feature-image{
+    display: inline;
+} 
+#feature-image img{
+    margin-top:2%;
+    margin-left: 4%;
+} 
+#feature-text>p{
+    font-family: 'jay1';
+    font-weight: 350;
+    font-size: 25px;
+    margin-left: 45px;
+    font-family: jay1;
+    text-align: center;
+} 
+#feature-text p{
+    margin-left: 5;
+    margin-top: 3%;
+    display: inline-block;
+    margin-bottom: 4%;
+} 
+#enjoy-food{
+    background-image: url("./Extras/banner-2.jpg");
+    position: static;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 15%;
+    padding-bottom: 30%;
+} 
+#heading1{
+    color: white;
+    text-align: center;
+    margin-top: 20%;
+    font-family: 'jay';
+    font-size: 65px;
+    font-weight: 700;
+} 
+#heading2{
+    color: white;
+    text-align: center;
+    margin-top: 15%;
+    margin-bottom: 7.5%;
+    font-family: 'jay';
+    font-size: 60px;
+    font-weight: 700;
+    padding: 70px;
+} 
+#many-more{
+    background-image: url("./Extras/banner-3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 10%;
+    padding-bottom: 1%;
+}
+#full-menu{
+    background: 0 0;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    box-sizing: border-box;
+    border: 1px solid white;
+    outline: none;
+    margin-left: 40%;
+    margin-top: 5%;
+    margin-bottom: 2.5%;
+    padding: 10px 30px;
+    border-radius: 50px; 
+    font-family: 'jay1';
+    font-size: 30px;
+    font-weight: 700;
+} 
+#chatbot img{
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+} 
+#chatbot img:hover{
+    transform: scale(1.1);
+}
+#heading3{
+    color: rgba(2, 1, 1, 0.864);
+    text-align: center;
+    margin: 4% auto; 
+    font-family: 'jay1';
+    font-size: 42px;
+    font-weight: 100;
+}  
+#logos{
+    text-align: center;
+}
+#logos img{
+    margin-left: 2%;
+    margin-top: 4%;
+} 
+#logos img:hover{
+    transform: scale(1.25);
+} 
+#connect-details{
+    margin-left: 4%;
+} 
+.footer-item h3{
+    margin-bottom: 3%;
+} 
+#contact-us h3{
+    margin-left: 0.5%;
+    margin-bottom: 3%;
+    font-size: 45px;
+    text-align: center;
+} 
+#social-media{
+    margin-left: -45%;
+} 
+#social-media h3{
+    margin-left: 15%;
+    margin-bottom: 3%;
+    font-size: 40px;
+    text-align: center;
+} 
+#social-media-details{
+    margin-left: 32.5%;
+}
+#social-media-details a{
+    text-decoration: none;
+} 
+#social-media-details img{
+    margin-left: 4%;
+} 
+#social-media-details img:hover{
+    transform: scale(1.1);
+} 
+.contact-us-details{
+    display: flex;
+    flex-direction: row;
+    margin-left: 32.5%;
+} 
+.contact-us-details p{
+    margin-right: 5%;
+    margin-top: 1%;
+    padding-left: 7.5px;
+    font-family: 'jay1';
+    font-weight: 100;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.844);
+} 
+.f1{
+    display: grid;
+    margin: 40px 50px;
+    justify-content: space-around;
+    grid-template-columns: repeat(2,1fr) 2fr;
+    align-items: stretch;
+    column-gap: 20PX;
+    font-weight: 300;
+    font-size: 20px;
+    color: #424242;
+    font-family: jay1;
+} 
+.f2{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+} 
+.msg{
+    background: url("./assets/mail.png");
+    height: 30px;
+    width: 30px;
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    margin-right: 20px;
+    margin-top: 35px;
+}  
+.msg1{
+    background: url("./assets/phone.png");
+    height: 30px;
+    width: 30px;
+    background-size: 30px 30px;
+    background-repeat: no-repeat;
+    margin-right:  20px;
+}
+.f3 li{
+    width: fit-content;
+    padding: 10px 5px;
+    list-style-position: inside;
+    cursor: pointer;
+} 
+.container1{
+    margin-top: 30px;
+    width: 300px;
+    height: 10px;
+    padding: 35px 80px 35px 35px;
+    font-size: 24px;
+    border-radius: 20px;
+}
+.email{
+    position: absolute;
+} 
+#footer{
+    background-image: linear-gradient(90deg,#C77BF4 0%, #FF5672 100%);
+    display: flex;
+    color: white;
+    margin-top: 2%;
+    width: 100%;
+    padding: 1% 0;
+    position: absolute;
+    justify-content: center;
+    font-size: 15px;
+    padding: 2% auto;
+}

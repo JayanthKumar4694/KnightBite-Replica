@@ -1,0 +1,167 @@
+@font-face {
+	font-family: jay;
+	src: url(./Extras/Fonts/NICOTINE.ttf);
+}
+@font-face {
+	font-family: jay1;
+	src: url('./Extras/Fonts/Nunito-VariableFont_wght.ttf')
+}
+#chatbot img{
+	position: fixed;
+	bottom: 25px;
+	right: 25px;
+	border-top-left-radius: 25px;
+	border-bottom-left-radius: 25px;
+	border-bottom-right-radius: 25px;
+} 
+#chatbot img:hover{
+	transform: scale(1.1);
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+#divj{
+	width: 100%;
+	height: 120px;
+	background-color: rgba(0, 0, 0, 0.139);
+	position: fixed;
+	display: inline;
+	margin-left: -10px;
+}
+#logo{
+	padding-top: 45px;
+	padding-left: 90px;
+}
+#title{
+	padding-left: 130px;
+	margin-top: -34px;
+	font-size: 20px;
+	color: white;
+	font-family: 'jay1';
+}
+#nav-list{
+	padding-left: 800px;
+	margin-top: -30px;
+	font-size: 17px;
+	font-weight: 700;
+	color: white;
+}
+.About{
+	color: white;
+}	
+.pages{
+	color: white;
+}
+.pages:hover{
+	color: purple;
+}
+	
+#nav-list a{
+	display: inline;
+	text-decoration: none;
+	padding-left: 40px;
+	font-family: jay1;
+}
+#home{
+	background-image: url("./Extras/banner.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 625px;
+}
+#para{
+	font-size: 50px;
+	height: 200px;
+	width: 50%;
+	font-family: jay;
+	color: white;
+	padding-top: 170px;
+	padding-left: 70px;
+}
+#image1{
+	padding: 150px;
+}
+#divpara-1{
+	width: 500px;
+	font-size: 22px;
+	font-weight: 750px;
+	font-family: jay1;
+	padding-left: 700px;
+	margin-top: -300px;
+	color: #424242;
+}
+#divpara-2{
+	width: 550px;
+	font-size: 21px;
+	font-weight: 750px;
+	font-family: jay1;
+	padding: 90px;
+	color: #424242;
+}
+#image2{
+	padding-left: 700px;
+	margin-top: -400px;
+}
+#image3{
+	padding-left: 100px;
+}
+#divpara-3{
+	width: 550px;
+	font-size: 21px;
+	font-weight: 750px;
+	font-family: jay1;
+	padding: 90px;
+	padding-left: 700px;
+	margin-top: -300px;
+	color: #424242;
+}
+#location{
+	padding: 100px;
+	font-family: jay1;
+	font-size: 50px;
+	color: #424242;
+}
+pre{
+	padding-left: 50px;
+	font-size: 25px;
+	margin-top: -70px;
+	font-family: jay1;
+	color: #424242;
+}
+#social-media{
+	padding-left: 400px;
+}
+#social-media h3{
+	margin-left: 15%;
+	margin-bottom: 3%;
+	font-size: 40px;
+	padding-left: 200px;
+	font-family: jay1;
+	color: #424242;
+	margin-top: -250px;
+}
+#social-media-details{
+	margin-left: 32.5%;
+}
+#social-media-details a{
+	text-decoration: none;
+}
+#social-media-details img{
+	margin-left: 4%;
+}
+#social-media-details img:hover{
+	transform: scale(1.1);
+}
+#footer{
+	background-image: linear-gradient(90deg,#C77BF4 0%, #FF5672 100%);
+	display: flex;
+	color: white;
+	margin-top: 5%;
+	width: 100%;
+	padding: 1% 0;
+	position: static;
+	justify-content: center;
+	font-size: 15px;
+	padding: 2% auto;
+	box-shadow: 1px 1px 10px #424242;
+}
